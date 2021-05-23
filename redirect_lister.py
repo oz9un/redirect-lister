@@ -1,10 +1,6 @@
 import requests
-from bs4 import BeautifulSoup
 import argparse
-import sys
-import wget
 import csv
-import os
 import time
 from requests.packages.urllib3.exceptions import InsecureRequestWarning
 requests.packages.urllib3.disable_warnings(InsecureRequestWarning)
